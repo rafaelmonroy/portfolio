@@ -6,12 +6,12 @@ export class Navbar extends Component {
         return (
             <div className="navbar-container">
                 <ul id="navbar">
-                    <li><div class="profile-pic-container"><img id="profile-pic" src={profilePic}/></div></li>
-                    <li id="about"><a href="#">About</a></li>
-                    <li id="projects"><a href="#">Projects</a></li>
-                    <li id="experience"><a href="#">Experience</a></li>
-                    <li id="certifications"><a href="#">Certifications</a></li>
-                    <li id="contact"><a href="#">Contact</a></li>
+                    <li><div className="profile-pic-container"><img id="profile-pic" src={profilePic} alt="rafael-monroy"/></div></li>
+                    <li id="about"><a href="#about-section">About</a></li>
+                    <li id="skilss"><a href="#skills-section">Skills</a></li>
+                    <li id="projects"><a href="#projects-section">Projects</a></li>
+                    <li id="certifications"><a href="#certifications-section">Certifications</a></li>
+                    <li id="contact"><a href="#contact-section">Connect</a></li>
                 </ul>
             </div>
         )
