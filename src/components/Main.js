@@ -7,6 +7,14 @@ import drumMachine from './images/drum-machine.png'
 import responsiveCert from './images/responsive-web-design-cert.png'
 import algorithmsCert from './images/JS-algorithms-data-structures-cert.png'
 
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faReact, faHtml5 } from '@fortawesome/free-brands-svg-icons' 
+
+library.add(faReact, faHtml5); 
+
+
+
 
 export default class Main extends Component {
     render() {
@@ -47,10 +55,8 @@ export default class Main extends Component {
                     </div>
                     <div id="skills-section" className="sections">
                         <h2>SKILLS</h2>
-                       
-                        <i class="fa fa-spinner fa-spin"></i>
-                        <i class="fa fas fa-tractor"></i>
-                        <i class="fas fa-infinity"></i>
+                        <FontAwesomeIcon icon={['fab', 'react']} />
+                        <FontAwesomeIcon icon={['fab', 'html5']} />
          
                     </div>
                     <div id="certifications-section" className="sections">
