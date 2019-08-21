@@ -12,22 +12,28 @@
   display: grid;
   grid-template-columns: 1fr 4fr;
   font-family: 'main', Fallback, sans-serif;
+  grid-column-gap: 40px;
 }
 
 .navbar-container {
-  background-color: #4f5f76;
+  background-color: #294a71;
   display: flex;
   justify-content: center;
   align-items: center;
+  -webkit-box-shadow: 3px -1px 15px 8px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px -1px 15px 8px rgba(0,0,0,0.75);
+box-shadow: 3px -1px 15px 8px rgba(0,0,0,0.75);
 }
 
 .main-container{
   background-color: white;
+
 }
 
 .navbar-container li {
   text-align: center;
   list-style: none;
+  
 }
 
 ul {
@@ -35,8 +41,24 @@ ul {
 }
 
 #profile-pic {
-  height: 200px;
-  border: solid 4px white;
+  height: 150px;
+  border: solid 8px #4176b4;
   border-radius: 100px;
+}
+
+#navbar li {
+  padding: 10px 0;
+  color: white;
+  font-size: 20px;
+}
+
+#navbar li a{
+  padding: 10px 0;
+  color: #85b4ea;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  color: #fff;
 }
 
