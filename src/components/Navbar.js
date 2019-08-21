@@ -6,7 +6,7 @@ export class Navbar extends Component {
         return (
             <div className="navbar-container">
                 <ul id="navbar">
-                    <li><img src={profilePic} id="profile-pic"/></li>
+                    <li><div class="profile-pic-container"><img id="profile-pic" src={profilePic}/></div></li>
                     <li id="about"><a href="#">About</a></li>
                     <li id="projects"><a href="#">Projects</a></li>
                     <li id="experience"><a href="#">Experience</a></li>

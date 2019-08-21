@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: main;
   src: url(fonts/Abel-Regular.ttf)
@@ -6,6 +7,7 @@
 * {
   margin: 0;
 }
+
 .App {
   height: 100vh;
   font-family: 'main', Fallback, sans-serif;
@@ -14,7 +16,7 @@
   font-family: 'main', Fallback, sans-serif;
   grid-column-gap: 40px;
 }
-
+/* Navbar */
 .navbar-container {
   background-color: #294a71;
   display: flex;
@@ -25,25 +27,27 @@
 box-shadow: 3px -1px 15px 8px rgba(0,0,0,0.75);
 }
 
-.main-container{
-  background-color: white;
-
-}
-
 .navbar-container li {
   text-align: center;
   list-style: none;
-  
 }
 
 ul {
   padding: 0px;
 }
 
-#profile-pic {
-  height: 150px;
+.profile-pic-container {
+  width: 200px;
+  height: 200px;
   border: solid 8px #4176b4;
   border-radius: 100px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+#profile-pic {
+  height: 200px;
 }
 
 #navbar li {
@@ -62,3 +66,8 @@ ul {
   color: #fff;
 }
 
+/*  */
+.main-container{
+  background-color: white;
+
+}
