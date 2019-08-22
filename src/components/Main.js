@@ -28,7 +28,7 @@ export default class Main extends Component {
                         <p id="about-me">After 3 years of customizing Wordpress sites with <span className="highlights">HTML & CSS</span> , I decided to learn a programming language 
                             that would allow me to break from the limitations of Wordpress and design websites only limited by my imagination.
                             After learning <span className="highlights">Vanilla Javascript</span>, building the projects displayed on this site and falling in love with programming, I have decided to leave a succesful
-                            short lived career in <span className="highlights">Digital Marketing</span> for a career as a <span className="highlights">Front-End Developer</span>. Testing GitHub Intergration                 
+                            short lived career in <span className="highlights">Digital Marketing</span> for a career as a <span className="highlights">Front-End Developer</span>.               
                         </p>
                     </div>
                     <div id="skills-section" className="sections">
