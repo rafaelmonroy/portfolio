@@ -4,6 +4,10 @@
   src: url(fonts/Abel-Regular.ttf)
 }
 
+html {
+  display: flex;
+}
+
 body {
   overscroll-behavior: none;
 }
@@ -13,10 +17,7 @@ body {
 }
 
 .App {
-  height: 100vh;
-  width: 100vw;
   font-family: 'main', Fallback, sans-serif;
-  
 }
 
 /**********/
@@ -31,9 +32,10 @@ body {
   -moz-box-shadow: 3px -1px 15px 8px rgba(0,0,0,0.75);
   box-shadow: 3px -1px 15px 8px rgba(0,0,0,0.75);
   position: fixed;
-  height: 100vh;
+  height: 100%;
   width: 250px;
-  float: left;
+  top: 0;
+  left: 0;
 }
 
 .navbar-container li {
@@ -79,7 +81,6 @@ ul {
 /* Main*/
 /**********/
 .main-container{
-
   padding-right: 15vw;
 }
 
@@ -227,3 +228,26 @@ text-decoration: none;
   color: white;
 }
 
+
+@media only screen and (max-width: 375px) {
+
+  .navbar-container {
+    width: 100%;
+    height: 500px;
+    position: fixed;
+    z-index: 1;
+  }
+  
+  .sections {
+    padding: 0 0 200px 0;
+  }
+
+  #about-section {
+    margin-top: 550px;
+  }
+
+  .main-container {
+    padding: 0;
+}
+
+}
