@@ -11,7 +11,7 @@ export class Navbar extends Component {
                     <li id="skilss"><a href="#skills-section">Skills</a></li>
                     <li id="projects"><a href="#projects-section">Projects</a></li>
                     <li id="certifications"><a href="#certifications-section">Certifications</a></li>
-                    <li id="contact"><a href="#contact-section">Connect</a></li>
+                    <li id="profiles"><a href="#profiles-section">Profiles</a></li>
                 </ul>
             </div>
         )

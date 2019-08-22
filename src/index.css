@@ -84,7 +84,7 @@ ul {
 }
 
 .sections {
-  padding: 35vh 0 5vh 300px;
+  padding: 35vh 0 50vh 300px;
 }
 
 /**********/
@@ -174,9 +174,9 @@ h2 {
 .project-name {
   position: absolute;
   bottom: 8px;
-  left: 10px;
+  left: 0px;
   color: white;
-  font-size: 50px;
+  font-size: 40px;
   background-color:#294a71;
   opacity: .7;
   padding: 5px 20px;
@@ -187,16 +187,25 @@ h2 {
 }
 
 /**********/
-/* Contact */
+/* Skills & Tools*/
 /**********/
 
-#contact-section {
-  margin-bottom: 600px;
+.svg-inline--fa {
+  font-size: 50px;
+  margin-right: 30px;
 }
+
+.svg-inline--fa:hover {
+  color: #294a71;
+}
+
+/**********/
+/* Profiles */
+/**********/
 
 .social {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-start;
 }
 
@@ -205,5 +214,16 @@ h2 {
   background-color: #294a71;
   color:  white;
   border-radius: 10px;
-  margin-top: 30px;
+  margin-left: 30px;
+  min-width: 200px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
 }
+
+.social-buttons:hover {
+background-color: #383c4a;
+text-decoration: none;
+  color: white;
+}
+
