@@ -276,7 +276,6 @@ text-decoration: none;
 @media screen and (max-width: 705px) {
 
 
-
   .navbar-container {
     width: 100vw;
     height: 500px;
@@ -286,6 +285,14 @@ text-decoration: none;
   
   .sections {
     padding: 0 0 200px 0;
+  }
+
+  #about-section, #skills-section, #profiles-section {
+    padding: 0 20px 70px;
+  }
+
+  .pro-certs {
+    padding-left: 20px;
   }
 
   #about-section {
@@ -308,6 +315,7 @@ text-decoration: none;
 
   .social-buttons {
     margin-bottom: 30px;
+    margin-left: 0;
   }
 
   .slider {

@@ -46,7 +46,7 @@ export default class Main extends Component {
                         <FontAwesomeIcon icon={['fab', 'adobe']} />
                     </div>
                     <div id="projects-section" className="sections">
-                        <h2>PROJECTS</h2>
+                        <h2 className="pro-certs">PROJECTS</h2>
                         <div className="slider">  
                             <div className="slides">
                                 <div id="slide-1">
@@ -69,7 +69,7 @@ export default class Main extends Component {
                         </div>
                     </div>
                     <div id="certifications-section" className="sections">
-                        <h2>CERTIFICATIONS</h2>
+                        <h2 className="pro-certs">CERTIFICATIONS</h2>
                         <div className="slider">  
                             <div className="slides">
                                 <div id="slide-1">
