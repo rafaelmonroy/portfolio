@@ -10,9 +10,9 @@ import algorithmsCert from './images/JS-algorithms-data-structures-cert.png'
 import { faTerminal, faFire } from "@fortawesome/free-solid-svg-icons";
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faReact, faHtml5, faCss3, faBootstrap, faJsSquare,faGit, faNode, faNpm, faWordpress, faAdobe, faGithub, faLinkedinIn} from '@fortawesome/free-brands-svg-icons' 
+import { faReact, faHtml5, faCss3, faBootstrap, faJsSquare,faGit, faNode, faNpm, faWordpress, faAdobe, faGithub, faLinkedinIn, faCodepen} from '@fortawesome/free-brands-svg-icons' 
 
-library.add(faReact, faHtml5, faCss3, faBootstrap, faJsSquare, faGit, faNode, faNpm, faWordpress, faAdobe, faGithub, faLinkedinIn); 
+library.add(faReact, faHtml5, faCss3, faBootstrap, faJsSquare, faGit, faNode, faNpm, faWordpress, faAdobe, faGithub, faLinkedinIn, faCodepen); 
 
 
 
@@ -50,19 +50,19 @@ export default class Main extends Component {
                         <div className="slider">  
                             <div className="slides">
                                 <div id="slide-1">
-                                    <a href="https://ribi1.csb.app/" target="_blank" rel="noopener noreferrer"><img className="slide-pics" src={calculator} alt="rafael-monroy"/></a>
+                                    <a href="https://raf-calculator-app.netlify.com/" target="_blank" rel="noopener noreferrer"><img className="slide-pics" src={calculator} alt="rafael-monroy"/></a>
                                     <div className="project-name"> JS CALCULATOR</div>
                                 </div>
                                 <div id="slide-2">
-                                    <a href="https://zzx4g.csb.app/" target="_blank" rel="noopener noreferrer"><img className="slide-pics" src={quoteGenerator} alt="rafael-monroy"/></a>
+                                    <a href="https://raf-random-quote-gen-app.netlify.com/" target="_blank" rel="noopener noreferrer"><img className="slide-pics" src={quoteGenerator} alt="rafael-monroy"/></a>
                                     <div className="project-name"> Randome Quote Generator</div>
                                 </div>
                                 <div id="slide-3">
-                                    <a href="https://l2f0l.csb.app/" target="_blank" rel="noopener noreferrer"><img className="slide-pics" src={markdown} alt="rafael-monroy"/></a>
+                                    <a href="https://raf-markdown-app.netlify.com/" target="_blank" rel="noopener noreferrer"><img className="slide-pics" src={markdown} alt="rafael-monroy"/></a>
                                     <div className="project-name">Markdown Previewer</div>
                                 </div>
                                 <div id="slide-4">
-                                    <a href="https://zblko.csb.app/" target="_blank" rel="noopener noreferrer"><img className="slide-pics" src={drumMachine} alt="rafael-monroy"/></a>
+                                    <a href="https://raf-drum-machine-app.netlify.com/" target="_blank" rel="noopener noreferrer"><img className="slide-pics" src={drumMachine} alt="rafael-monroy"/></a>
                                     <div className="project-name">Drum Machine</div>
                                 </div>
                             </div>
@@ -90,6 +90,7 @@ export default class Main extends Component {
                             <a href="https://www.freecodecamp.org/rafaelmonroy" className="social-buttons" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFire} />FreeCodeCamp</a>
                             <a href="https://github.com/rafaelmonroy" className="social-buttons" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'github']} />GitHub</a>
                             <a href="https://www.linkedin.com/in/rafael-monroy-34ab53132/" className="social-buttons" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'linkedin-in']} />LinkedIn</a>
+                            <a href="https://codepen.io/rafaelmonroy" className="social-buttons" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'codepen']} />Codepen</a>
                         </div>
                     </div>
                 </div>
