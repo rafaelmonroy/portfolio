@@ -246,7 +246,7 @@ text-decoration: none;
 
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1218px){
 
   .social {
     flex-direction: column;
@@ -255,6 +255,10 @@ text-decoration: none;
   .social-buttons {
     margin-bottom: 30px;
   }
+
+}
+
+@media screen and (max-width: 991px) {
 
   .slider {
     width: 400px;
