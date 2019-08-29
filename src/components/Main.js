@@ -1,11 +1,13 @@
 import React, { Component } from 'react'
 import "react-image-gallery/styles/css/image-gallery.css";
 import calculator from './images/calculator.png'
-import quoteGenerator from './images/random-quote-generator.png';
+import quoteGenerator from './images/random-quote-generator.png'
 import markdown from './images/markdown-previewer.png'
 import drumMachine from './images/drum-machine.png'
+import pomodoroClock from './images/pomodoro-clock.png'
 import responsiveCert from './images/responsive-web-design-cert.png'
 import algorithmsCert from './images/JS-algorithms-data-structures-cert.png'
+import frontEndLibraries from './images/front-end-libraries-cert.png'
 
 import { faTerminal, faFire } from "@fortawesome/free-solid-svg-icons";
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -25,10 +27,10 @@ export default class Main extends Component {
                     <div id="about-section" className="sections">
                         <h1 id="name">RAFAEL<span id="monroy">MONROY</span></h1>
                         <p id="sub-heading"><span id="front-end">Front-End Web Developer</span> from Los Angeles, CA</p> 
-                        <p id="about-me">After 3 years of customizing Wordpress sites with <span className="highlights">HTML & CSS</span> , I decided to learn a programming language 
+                        <p id="about-me">After 4 years of customizing Wordpress sites with <span className="highlights">HTML & CSS</span> , I decided to learn a programming language 
                             that would allow me to break from the limitations of Wordpress and design websites only limited by my imagination.
-                            After learning <span className="highlights">Vanilla Javascript</span>, building the projects displayed on this site and falling in love with programming, I have decided to leave a succesful
-                            short lived career in <span className="highlights">Digital Marketing</span> for a career as a <span className="highlights">Front-End Developer</span>.               
+                            After learning <span className="highlights">Vanilla Javascript</span>, building the projects displayed on this site and falling in love with programming, I have decided to 
+                            pursue a career as a <span className="highlights">Front-End Developer</span>.               
                         </p>
                     </div>
                     <div id="skills-section" className="sections">
@@ -50,21 +52,25 @@ export default class Main extends Component {
                         <div className="slider">  
                             <div className="slides">
                                 <div id="slide-1">
-                                    <a href="https://raf-calculator-app.netlify.com/" target="_blank" rel="noopener noreferrer"><img className="slide-pics" src={calculator} alt="rafael-monroy"/></a>
-                                    <div className="project-name"> JS CALCULATOR</div>
+                                    <a href="https://raf-pomodoro-clock-app.netlify.com/" target="_blank" rel="noopener noreferrer"><img className="slide-pics" src={pomodoroClock} alt="rafael-monroy"/></a>
+                                    <div className="project-name">Pomodoro Clock</div>
                                 </div>
                                 <div id="slide-2">
-                                    <a href="https://raf-random-quote-gen-app.netlify.com/" target="_blank" rel="noopener noreferrer"><img className="slide-pics" src={quoteGenerator} alt="rafael-monroy"/></a>
-                                    <div className="project-name"> Randome Quote Generator</div>
+                                    <a href="https://raf-calculator-app.netlify.com/" target="_blank" rel="noopener noreferrer"><img className="slide-pics" src={calculator} alt="rafael-monroy"/></a>
+                                    <div className="project-name">Calculator</div>
                                 </div>
                                 <div id="slide-3">
+                                    <a href="https://raf-drum-machine-app.netlify.com/" target="_blank" rel="noopener noreferrer"><img className="slide-pics" src={drumMachine} alt="rafael-monroy"/></a>
+                                    <div className="project-name">Drum Machine</div>
+                                </div> 
+                                <div id="slide-4">
                                     <a href="https://raf-markdown-app.netlify.com/" target="_blank" rel="noopener noreferrer"><img className="slide-pics" src={markdown} alt="rafael-monroy"/></a>
                                     <div className="project-name">Markdown Previewer</div>
                                 </div>
-                                <div id="slide-4">
-                                    <a href="https://raf-drum-machine-app.netlify.com/" target="_blank" rel="noopener noreferrer"><img className="slide-pics" src={drumMachine} alt="rafael-monroy"/></a>
-                                    <div className="project-name">Drum Machine</div>
-                                </div>
+                                <div id="slide-5">
+                                    <a href="https://raf-random-quote-gen-app.netlify.com/" target="_blank" rel="noopener noreferrer"><img className="slide-pics" src={quoteGenerator} alt="rafael-monroy"/></a>
+                                    <div className="project-name"> Random Quote Generator</div>
+                                </div>                    
                             </div>
                         </div>
                     </div>
@@ -79,7 +85,7 @@ export default class Main extends Component {
                                     <a href="https://www.freecodecamp.org/certification/rafaelmonroy/javascript-algorithms-and-data-structures" target="_blank" rel="noopener noreferrer"><img className="slide-pics" src={algorithmsCert} alt="rafael-monroy"/></a>
                                 </div>
                                 <div id="slide-3">
-                                    <div className="project-name">FRONT-END CERTIFICATE COMING SOON</div>
+                                    <a href="https://www.freecodecamp.org/certification/rafaelmonroy/front-end-libraries" target="_blank" rel="noopener noreferrer"><img className="slide-pics" src={frontEndLibraries} alt="rafael-monroy"/></a>
                                 </div>
                             </div>
                         </div>
