@@ -225,6 +225,23 @@ text-decoration: none;
   color: white;
 }
 
+#scrollToTop > .svg-inline--fa{
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #294a71;
+  color: #fff;
+  cursor: pointer;
+  padding: 5px;
+}
+
+/**********/
+/* media queries */
+/**********/
+
 @media screen and (max-width: 1112px) {
 
   #name{
@@ -247,6 +264,12 @@ text-decoration: none;
 }
 
 @media screen and (max-width: 1218px){
+
+  #scrollToTop > .svg-inline--fa{
+    position: fixed;
+    right: 5px;
+    bottom: 20px;
+  }
 
   .social {
     flex-direction: column;
