@@ -21,7 +21,7 @@ import { faReact, faHtml5, faCss3, faBootstrap, faJsSquare,faGit, faNode, faNpm,
 library.add(faReact, faHtml5, faCss3, faBootstrap, faJsSquare, faGit, faNode, faNpm, faWordpress, faAdobe, faGithub, faLinkedinIn, faCodepen); 
 
 
-configureAnchors({offset: -50, scrollDuration: 1000})
+configureAnchors({offset: -60, scrollDuration: 1000})
 
 export default class Main extends Component {
 
@@ -114,8 +114,9 @@ export default class Main extends Component {
                                 <a href="https://codepen.io/rafaelmonroy" className="social-buttons" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'codepen']} />Codepen</a>
                             </div>
                         </div>
+                        
                     </ScrollableAnchor>
-                    
+                    <a  href="#about-section" id="scroll-to-top" ><FontAwesomeIcon icon={faArrowUp} /></a>
                 </div>
             
         )

@@ -242,7 +242,7 @@ text-decoration: none;
   color: white;
 }
 
-#scrollToTop > .svg-inline--fa{
+#scroll-to-top > .svg-inline--fa{
   position: fixed;
   right: 20px;
   bottom: 20px;
