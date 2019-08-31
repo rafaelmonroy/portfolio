@@ -25,13 +25,6 @@ configureAnchors({offset: -50, scrollDuration: 1000})
 
 export default class Main extends Component {
 
-    scrollToTop = () => {
-        window.scrollTo({
-            top: 0,
-            left: 0,
-            behavior: 'smooth'
-        })
-    }
     render() {
         return (
 
@@ -122,7 +115,7 @@ export default class Main extends Component {
                             </div>
                         </div>
                     </ScrollableAnchor>
-                    <button id="scrollToTop" onClick={this.scrollToTop}><FontAwesomeIcon icon={faArrowUp} /></button>
+                    
                 </div>
             
         )
