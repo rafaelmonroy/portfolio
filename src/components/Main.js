@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import ScrollableAnchor from 'react-scrollable-anchor'
+
 import { configureAnchors } from 'react-scrollable-anchor'
 import "react-image-gallery/styles/css/image-gallery.css";
 import calculator from './images/calculator.png'
@@ -10,6 +11,7 @@ import pomodoroClock from './images/pomodoro-clock.png'
 import responsiveCert from './images/responsive-web-design-cert.png'
 import algorithmsCert from './images/JS-algorithms-data-structures-cert.png'
 import frontEndLibraries from './images/front-end-libraries-cert.png'
+import profilePic from './images/profile-pic.jpg'
 
 import { faTerminal, faFire, faArrowUp } from "@fortawesome/free-solid-svg-icons";
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -19,7 +21,7 @@ import { faReact, faHtml5, faCss3, faBootstrap, faJsSquare,faGit, faNode, faNpm,
 library.add(faReact, faHtml5, faCss3, faBootstrap, faJsSquare, faGit, faNode, faNpm, faWordpress, faAdobe, faGithub, faLinkedinIn, faCodepen); 
 
 
-configureAnchors({scrollDuration: 1000})
+configureAnchors({offset: -50, scrollDuration: 1000})
 
 export default class Main extends Component {
 
@@ -35,7 +37,8 @@ export default class Main extends Component {
 
                 <div className='main-container' >
                     <ScrollableAnchor id={'about-section'}>
-                        <div className="sections">
+                        <div id="about-section-css" className="sections">
+                        <div className="mobile-profile-pic-container"><img id="mobile-profile-pic" src={profilePic} alt="rafael-monroy"/></div>
                             <h1 id="name">RAFAEL<span id="monroy">MONROY</span></h1>
                             <p id="sub-heading"><span id="front-end">Front-End Web Developer</span> from Los Angeles, CA</p> 
                             <p id="about-me">After 4 years of customizing Wordpress sites with <span className="highlights">HTML & CSS</span> , I decided to learn a programming language 
@@ -46,7 +49,7 @@ export default class Main extends Component {
                         </div>
                     </ScrollableAnchor> 
                     <ScrollableAnchor id={'skills-section'}>
-                        <div className="sections">
+                        <div id="skills-section-css" className="sections">
                             <h2>SKILLS & TOOLS</h2>
                             <FontAwesomeIcon icon={['fab', 'html5']} />
                             <FontAwesomeIcon icon={['fab', 'css3']} />
@@ -62,7 +65,7 @@ export default class Main extends Component {
                         </div>
                     </ScrollableAnchor>
                     <ScrollableAnchor id={'projects-section'}>
-                        <div className="sections">
+                        <div id="projects-section-css" className="sections">
                             <h2 className="pro-certs">PROJECTS</h2>
                             <div className="slider">  
                                 <div className="slides">
@@ -91,7 +94,7 @@ export default class Main extends Component {
                         </div>
                     </ScrollableAnchor>
                     <ScrollableAnchor id={'certifications-section'}>
-                        <div className="sections">
+                        <div id="certifications-section-css" className="sections">
                             <h2 className="pro-certs">CERTIFICATIONS</h2>
                             <div className="slider">  
                                 <div className="slides">
@@ -109,7 +112,7 @@ export default class Main extends Component {
                         </div>
                     </ScrollableAnchor>
                     <ScrollableAnchor id={'profiles-section'} >
-                        <div className="sections">
+                        <div id="profiles-section-css" className="sections">
                             <h2>PROFILES</h2>
                             <div className="social">
                                 <a href="https://www.freecodecamp.org/rafaelmonroy" className="social-buttons" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFire} />FreeCodeCamp</a>
