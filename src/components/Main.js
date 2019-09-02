@@ -3,6 +3,8 @@ import ScrollableAnchor from 'react-scrollable-anchor'
 
 import { configureAnchors } from 'react-scrollable-anchor'
 import "react-image-gallery/styles/css/image-gallery.css";
+
+//images
 import calculator from './images/calculator.png'
 import quoteGenerator from './images/random-quote-generator.png'
 import markdown from './images/markdown-previewer.png'
@@ -12,7 +14,9 @@ import responsiveCert from './images/responsive-web-design-cert.png'
 import algorithmsCert from './images/JS-algorithms-data-structures-cert.png'
 import frontEndLibraries from './images/front-end-libraries-cert.png'
 import profilePic from './images/profile-pic.jpg'
+import memeGenerator from './images/car-audio-meme-generator.png'
 
+//icons
 import { faTerminal, faFire, faArrowUp } from "@fortawesome/free-solid-svg-icons";
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -62,23 +66,27 @@ export default class Main extends Component {
                             <h2 className="pro-certs">PROJECTS</h2>
                             <div className="slider">  
                                 <div className="slides">
-                                    <div id="slide-1">
+                                    <div>
+                                        <a href="https://raf-car-audio-meme-generator.netlify.com/" target="_blank" rel="noopener noreferrer"><img className="slide-pics" src={memeGenerator} alt="rafael-monroy"/></a>
+                                        <div className="project-name">Car Audio Meme Generator</div>
+                                    </div>
+                                    <div>
                                         <a href="https://raf-pomodoro-clock-app.netlify.com/" target="_blank" rel="noopener noreferrer"><img className="slide-pics" src={pomodoroClock} alt="rafael-monroy"/></a>
                                         <div className="project-name">Pomodoro Clock</div>
                                     </div>
-                                    <div id="slide-2">
+                                    <div>
                                         <a href="https://raf-calculator-app.netlify.com/" target="_blank" rel="noopener noreferrer"><img className="slide-pics" src={calculator} alt="rafael-monroy"/></a>
                                         <div className="project-name">Calculator</div>
                                     </div>
-                                    <div id="slide-3">
+                                    <div>
                                         <a href="https://raf-drum-machine-app.netlify.com/" target="_blank" rel="noopener noreferrer"><img className="slide-pics" src={drumMachine} alt="rafael-monroy"/></a>
                                         <div className="project-name">Drum Machine</div>
                                     </div> 
-                                    <div id="slide-4">
+                                    <div>
                                         <a href="https://raf-markdown-app.netlify.com/" target="_blank" rel="noopener noreferrer"><img className="slide-pics" src={markdown} alt="rafael-monroy"/></a>
                                         <div className="project-name">Markdown Previewer</div>
                                     </div>
-                                    <div id="slide-5">
+                                    <div>
                                         <a href="https://raf-random-quote-gen-app.netlify.com/" target="_blank" rel="noopener noreferrer"><img className="slide-pics" src={quoteGenerator} alt="rafael-monroy"/></a>
                                         <div className="project-name"> Random Quote Generator</div>
                                     </div>                    
