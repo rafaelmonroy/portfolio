@@ -23,7 +23,7 @@ import {
   faTerminal,
   faFire,
   faArrowUp,
-  faArrowRight
+  faArrowRight,
 } from "@fortawesome/free-solid-svg-icons";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -40,7 +40,7 @@ import {
   faAdobe,
   faGithub,
   faLinkedinIn,
-  faCodepen
+  faCodepen,
 } from "@fortawesome/free-brands-svg-icons";
 
 library.add(
@@ -78,14 +78,14 @@ export default class Main extends Component {
               RAFAEL<span id="monroy">MONROY</span>
             </h1>
             <p id="sub-heading">
-              <span id="front-end">Front-End Web Developer</span> from Los
+              <span id="front-end">Full-Stack Web Developer</span> from Los
               Angeles, CA
             </p>
             <p id="about-me">
-              After almost 5 years of customizing Wordpress sites with{" "}
-              <span className="highlights">HTML & CSS</span> , I decided to
+              After 4 years of customizing Wordpress sites with{" "}
+              <span className="highlights">HTML &amp; CSS</span> , I decided to
               learn a programming language that would allow me to break from the
-              limitations of Wordpress and design web and phone apps only
+              limitations of Wordpress and design web &amp; phone apps only
               limited by my imagination. After learning{" "}
               <span className="highlights">Vanilla Javascript</span>, building
               the projects displayed on this site and falling in love with
@@ -120,7 +120,14 @@ export default class Main extends Component {
         </ScrollableAnchor>
         <ScrollableAnchor id={"projects-section"}>
           <div id="projects-section-css" className="sections">
-            <h2 className="pro-certs">PROJECTS</h2>
+            <h2 className="pro-certs" id="projects-title">
+              PROJECTS
+            </h2>
+
+            <p style={{ color: "red" }} id="click-image">
+              Click image to see project in production!
+            </p>
+
             <div className="slider">
               <div className="slides">
                 <div>
@@ -136,6 +143,14 @@ export default class Main extends Component {
                     />
                   </a>
                   <div className="project-name">TacoPlaces</div>
+                  <div className="project-description">
+                    Using the MERN Stack, Google Maps API and Geolocation API, I
+                    created a web app that allows users to locate the best taco
+                    place in their neighborhood. Users are also able to add
+                    their favorite location through a form which sends the
+                    address to Google to return back LatLong which is then
+                    rendered on the TacoPlace Map.
+                  </div>
                 </div>
                 <div>
                   <a
@@ -150,6 +165,12 @@ export default class Main extends Component {
                     />
                   </a>
                   <div className="project-name">TacoMaps Subscribe</div>
+                  <div className="project-description">
+                    Using the MERN Stack, Constant Contact API along with OAuth
+                    2.0, I created a subscribe page which triggers an auto
+                    response email for people that want to be notified when our
+                    App Drops.
+                  </div>
                 </div>
                 <div>
                   <a
@@ -164,6 +185,12 @@ export default class Main extends Component {
                     />
                   </a>
                   <div className="project-name">Car Audio Meme Generator</div>
+                  <div className="project-description">
+                    Using ReactJS and CSS I created a meme generator that I used
+                    to create memes for the company I worked for. Using this
+                    generator along with other content I grew the company’s
+                    Instagram account from 1k to 16.5k followers.
+                  </div>
                 </div>
                 <div>
                   <a
@@ -178,6 +205,11 @@ export default class Main extends Component {
                     />
                   </a>
                   <div className="project-name">Pomodoro Clock</div>
+                  <div className="project-description">
+                    Using ReactJS, CSS Flexbox and Grid I created a pomodoro
+                    clock that allows users to study, train or manage their
+                    productivity time more effectively.
+                  </div>
                 </div>
                 <div>
                   <a
@@ -192,6 +224,12 @@ export default class Main extends Component {
                     />
                   </a>
                   <div className="project-name">Calculator</div>
+                  <div className="project-description">
+                    Using ReactJS, CSS Flexbox and Grid I created a fully
+                    functional Javascript Calculator that can process any
+                    addition, subtraction, multiplication and division as well
+                    as reject any invalid arithmetic equations.
+                  </div>
                 </div>
                 <div>
                   <a
@@ -206,6 +244,11 @@ export default class Main extends Component {
                     />
                   </a>
                   <div className="project-name">Drum Machine</div>
+                  <div className="project-description">
+                    Using ReactJS, CSS Flexbox and Grid I created drum machine
+                    that plays a certain drum sound when you mouse click on a
+                    button or press down a certain keyboard keys.
+                  </div>
                 </div>
                 <div>
                   <a
@@ -220,6 +263,11 @@ export default class Main extends Component {
                     />
                   </a>
                   <div className="project-name">Markdown Previewer</div>
+                  <div className="project-description">
+                    Using the ReactJS, NPM and CSS I build a Markdown Previewer
+                    that allows users to easily convert their text to HTML with
+                    simple markdown commands
+                  </div>
                 </div>
                 <div>
                   <a
@@ -234,6 +282,12 @@ export default class Main extends Component {
                     />
                   </a>
                   <div className="project-name"> Random Quote Generator</div>
+                  <div className="project-description">
+                    Using ReactJS and CSS Flexbox I created a quote generator
+                    that calls an external API and fetches data to display a
+                    random quote and author everytime a specific button is
+                    clicked. Users can Tweet the quote with a click of a button.
+                  </div>
                 </div>
               </div>
             </div>
