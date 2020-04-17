@@ -178,6 +178,7 @@ h2 {
   transition: transform 0.5s;
   position: relative;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-size: 100px;
@@ -190,23 +191,18 @@ h2 {
 }
 
 .project-name {
-  position: absolute;
-  top: 0px;
-  left: 0px;
   color: white;
   font-size: 40px;
   background-color: #294a71;
   padding: 5px 20px;
+  border-radius: 50px;
 }
 
 .project-description {
-  position: absolute;
-  bottom: 5px;
-  left: 0px;
   color: #294a71;
   font-size: 20px;
   background-color: #fff;
-  opacity: 0.8;
+
   padding: 5px 20px;
 }
 
@@ -287,6 +283,22 @@ h2 {
 /* media queries */
 /**********/
 
+@media screen and (max-width: 1218px) {
+  #scrollToTop > .svg-inline--fa {
+    position: fixed;
+    right: 5px;
+    bottom: 20px;
+  }
+
+  .social {
+    flex-direction: column;
+  }
+
+  .social-buttons {
+    margin-bottom: 30px;
+  }
+}
+
 @media screen and (max-width: 1112px) {
   #name {
     font-size: 60px;
@@ -304,21 +316,9 @@ h2 {
     width: 600px;
     height: 350px;
   }
-}
 
-@media screen and (max-width: 1218px) {
-  #scrollToTop > .svg-inline--fa {
-    position: fixed;
-    right: 5px;
-    bottom: 20px;
-  }
-
-  .social {
-    flex-direction: column;
-  }
-
-  .social-buttons {
-    margin-bottom: 30px;
+  .project-description {
+    font-size: 15px;
   }
 }
 
@@ -330,6 +330,14 @@ h2 {
   .slides > div {
     width: 400px;
     height: 250px;
+  }
+
+  .project-description {
+    font-size: 12px;
+  }
+
+  .project-name {
+    font-size: 25px;
   }
 }
 
@@ -448,11 +456,21 @@ h2 {
     width: 100vw;
     height: 500px;
   }
+  .project-description {
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width: 600px) {
   .slider {
     width: 100vw;
+  }
+  .project-description {
+    font-size: 15px;
+  }
+
+  .project-name {
+    font-size: 25px;
   }
 
   .slides > div {
@@ -464,6 +482,14 @@ h2 {
 @media screen and (max-width: 500px) {
   .slider {
     width: 100vw;
+  }
+
+  .project-description {
+    font-size: 15px;
+  }
+
+  .project-name {
+    font-size: 20px;
   }
 
   .slides > div {
@@ -480,6 +506,12 @@ h2 {
     margin-top: 15px;
     font-size: 20px;
     padding-left: 10px;
+  }
+  .project-description {
+    font-size: 12px;
+  }
+  .project-name {
+    font-size: 20px;
   }
 }
 
