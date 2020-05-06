@@ -1,22 +1,23 @@
-import React, { Component } from "react";
-import ScrollableAnchor from "react-scrollable-anchor";
+import React, { Component } from 'react';
+import ScrollableAnchor from 'react-scrollable-anchor';
 
-import { configureAnchors } from "react-scrollable-anchor";
-import "react-image-gallery/styles/css/image-gallery.css";
+import { configureAnchors } from 'react-scrollable-anchor';
+import 'react-image-gallery/styles/css/image-gallery.css';
 
 //images
-import calculator from "./images/calculator.png";
-import quoteGenerator from "./images/random-quote-generator.png";
-import markdown from "./images/markdown-previewer.png";
-import drumMachine from "./images/drum-machine.png";
-import pomodoroClock from "./images/pomodoro-clock.png";
-import responsiveCert from "./images/responsive-web-design-cert.png";
-import algorithmsCert from "./images/JS-algorithms-data-structures-cert.png";
-import frontEndLibraries from "./images/front-end-libraries-cert.png";
-import profilePic from "./images/profile-pic.jpg";
-import memeGenerator from "./images/car-audio-meme-generator.png";
-import tacoPlaces from "./images/tacoplaces.png";
-import tacomapsSubscribe from "./images/tacomaps-subscribe.png";
+import calculator from './images/calculator.png';
+import quoteGenerator from './images/random-quote-generator.png';
+import markdown from './images/markdown-previewer.png';
+import drumMachine from './images/drum-machine.png';
+import pomodoroClock from './images/pomodoro-clock.png';
+import responsiveCert from './images/responsive-web-design-cert.png';
+import algorithmsCert from './images/JS-algorithms-data-structures-cert.png';
+import frontEndLibraries from './images/front-end-libraries-cert.png';
+import profilePic from './images/profile-pic.jpg';
+import memeGenerator from './images/car-audio-meme-generator.png';
+import tacoPlaces from './images/tacoplaces.png';
+import tacomapsSubscribe from './images/tacomaps-subscribe.png';
+import wtu from './images/wtu.png';
 
 //icons
 import {
@@ -24,9 +25,9 @@ import {
   faFire,
   faArrowUp,
   faArrowRight,
-} from "@fortawesome/free-solid-svg-icons";
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+} from '@fortawesome/free-solid-svg-icons';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faReact,
   faHtml5,
@@ -41,7 +42,7 @@ import {
   faGithub,
   faLinkedinIn,
   faCodepen,
-} from "@fortawesome/free-brands-svg-icons";
+} from '@fortawesome/free-brands-svg-icons';
 
 library.add(
   faReact,
@@ -65,7 +66,7 @@ export default class Main extends Component {
   render() {
     return (
       <div className="main-container">
-        <ScrollableAnchor id={"about-section"}>
+        <ScrollableAnchor id={'about-section'}>
           <div id="about-section-css" className="sections">
             <div className="mobile-profile-pic-container">
               <img
@@ -82,32 +83,32 @@ export default class Main extends Component {
               CA
             </p>
             <p id="about-me">
-              After 4 years of customizing Wordpress sites with{" "}
+              After 4 years of customizing Wordpress sites with{' '}
               <span className="highlights">HTML &amp; CSS</span> , I decided to
               learn a programming language that would allow me to break from the
               limitations of Wordpress and design web &amp; phone apps only
-              limited by my imagination. After learning{" "}
+              limited by my imagination. After learning{' '}
               <span className="highlights">Vanilla Javascript</span>, building
               the projects displayed on this site and falling in love with
-              programming, I have decided to pursue a career as a{" "}
+              programming, I have decided to pursue a career as a{' '}
               <span className="highlights">Full-Stack Developer</span>.
             </p>
           </div>
         </ScrollableAnchor>
-        <ScrollableAnchor id={"skills-section"}>
+        <ScrollableAnchor id={'skills-section'}>
           <div id="skills-section-css" className="sections">
             <h2>SKILLS &amp; TOOLS</h2>
-            <FontAwesomeIcon icon={["fab", "html5"]} />
-            <FontAwesomeIcon icon={["fab", "css3"]} />
-            <FontAwesomeIcon icon={["fab", "js-square"]} />
-            <FontAwesomeIcon icon={["fab", "bootstrap"]} />
-            <FontAwesomeIcon icon={["fab", "react"]} />
+            <FontAwesomeIcon icon={['fab', 'html5']} />
+            <FontAwesomeIcon icon={['fab', 'css3']} />
+            <FontAwesomeIcon icon={['fab', 'js-square']} />
+            <FontAwesomeIcon icon={['fab', 'bootstrap']} />
+            <FontAwesomeIcon icon={['fab', 'react']} />
             <FontAwesomeIcon icon={faTerminal} />
-            <FontAwesomeIcon icon={["fab", "git"]} />
-            <FontAwesomeIcon icon={["fab", "node"]} />
-            <FontAwesomeIcon icon={["fab", "npm"]} />
-            <FontAwesomeIcon icon={["fab", "wordpress"]} />
-            <FontAwesomeIcon icon={["fab", "adobe"]} />
+            <FontAwesomeIcon icon={['fab', 'git']} />
+            <FontAwesomeIcon icon={['fab', 'node']} />
+            <FontAwesomeIcon icon={['fab', 'npm']} />
+            <FontAwesomeIcon icon={['fab', 'wordpress']} />
+            <FontAwesomeIcon icon={['fab', 'adobe']} />
             <br />
             <br />
             <p>
@@ -118,22 +119,44 @@ export default class Main extends Component {
             </p>
           </div>
         </ScrollableAnchor>
-        <ScrollableAnchor id={"projects-section"}>
+        <ScrollableAnchor id={'projects-section'}>
           <div id="projects-section-css" className="sections">
             <h2 className="pro-certs" id="projects-title">
               PROJECTS
             </h2>
 
-            <p style={{ color: "red" }} id="click-image">
-              Click image to see project in production!
+            <p style={{ color: 'red' }} id="click-image">
+              Click image to see project in production!{' '}
+              <i>Except for WTU (still in dev)</i>
             </p>
 
             <div className="slider">
               <div className="slides">
                 <div>
+                  <div className="project-name">WTU (Worknight Turn Up)</div>
+                  <div className="project-description">
+                    Using React Native, Firebase, Google Maps API, and Geocoding
+                    API, I am building an app that helps Angelenos locate bars
+                    with drink specials and a dance floor, a deadly combo, on
+                    worknights. Users are also able to submit a location to the
+                    database that they belive is worthy of being on the map,
+                    after my friends confirm the bar is good enough to add, then
+                    I will add location to map.
+                  </div>
+                </div>
+                <div>
+                  <a
+                    href="https://github.com/rafaelmonroy/WTU"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img className="slide-pics" src={wtu} alt="rafael-monroy" />
+                  </a>
+                </div>
+                <div>
                   <div className="project-name">TacoPlaces</div>
                   <div className="project-description">
-                    Using the MERN Stack, Google Maps API and Geolocation API, I
+                    Using the MERN Stack, Google Maps API and Geocoding API, I
                     created a web app that allows users to locate the best taco
                     place in their neighborhood. Users are also able to add
                     their favorite location through a form which sends the
@@ -310,7 +333,7 @@ export default class Main extends Component {
             <br />
             <div id="scroll-left">
               <p>
-                Scroll to see more{" "}
+                Scroll to see more{' '}
                 <span id="right-arrow">
                   <FontAwesomeIcon icon={faArrowRight} />
                 </span>
@@ -318,7 +341,7 @@ export default class Main extends Component {
             </div>
           </div>
         </ScrollableAnchor>
-        <ScrollableAnchor id={"certifications-section"}>
+        <ScrollableAnchor id={'certifications-section'}>
           <div id="certifications-section-css" className="sections">
             <h2 className="pro-certs">CERTIFICATIONS</h2>
             <div className="slider">
@@ -367,7 +390,7 @@ export default class Main extends Component {
             <br />
             <div id="scroll-left">
               <p>
-                Scroll to see more{" "}
+                Scroll to see more{' '}
                 <span id="right-arrow">
                   <FontAwesomeIcon icon={faArrowRight} />
                 </span>
@@ -376,7 +399,7 @@ export default class Main extends Component {
           </div>
         </ScrollableAnchor>
 
-        <ScrollableAnchor id={"profiles-section"}>
+        <ScrollableAnchor id={'profiles-section'}>
           <div id="profiles-section-css" className="sections">
             <h2>PROFILES</h2>
             <div className="social">
@@ -395,7 +418,7 @@ export default class Main extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FontAwesomeIcon icon={["fab", "github"]} />
+                <FontAwesomeIcon icon={['fab', 'github']} />
                 GitHub
               </a>
               <a
@@ -404,7 +427,7 @@ export default class Main extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FontAwesomeIcon icon={["fab", "linkedin-in"]} />
+                <FontAwesomeIcon icon={['fab', 'linkedin-in']} />
                 LinkedIn
               </a>
               <a
@@ -413,7 +436,7 @@ export default class Main extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FontAwesomeIcon icon={["fab", "codepen"]} />
+                <FontAwesomeIcon icon={['fab', 'codepen']} />
                 Codepen
               </a>
             </div>
