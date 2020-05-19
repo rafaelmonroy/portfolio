@@ -1,18 +1,18 @@
-import React, { Component } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
-import profilePic from "./images/profile-pic.jpg";
+import React, { Component } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+import profilePic from './images/profile-pic.jpg';
 
 export class Navbar extends Component {
   render() {
     return (
       <div className="navbar-container">
-        <h1 id="menu-name" style={{ alignSelf: "flex-start" }}>
+        <h1 id="menu-name" style={{ alignSelf: 'flex-start' }}>
           RAFAEL MONROY
         </h1>
         <label
           id="hamburger"
-          style={{ alignSelf: "flex-end" }}
+          style={{ alignSelf: 'flex-end' }}
           htmlFor="toggle"
         >
           <FontAwesomeIcon icon={faBars} />
@@ -38,6 +38,9 @@ export class Navbar extends Component {
           </li>
           <li id="profiles">
             <a href="#profiles-section">Profiles</a>
+          </li>
+          <li id="contact">
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </div>

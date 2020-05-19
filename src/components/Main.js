@@ -18,6 +18,7 @@ import memeGenerator from './images/car-audio-meme-generator.png';
 import tacoPlaces from './images/tacoplaces.png';
 import tacomapsSubscribe from './images/tacomaps-subscribe.png';
 import wtu from './images/wtu.png';
+import tacomaps from './images/tacomaps.png';
 
 //icons
 import {
@@ -127,7 +128,7 @@ export default class Main extends Component {
 
             <p style={{ color: 'red' }} id="click-image">
               Click image to see project in production!{' '}
-              <i>Except for WTU (still in dev)</i>
+              <i>Except for WTU (in App Store Review Process)</i>
             </p>
 
             <div className="slider">
@@ -135,13 +136,13 @@ export default class Main extends Component {
                 <div>
                   <div className="project-name">WTU (Worknight Turn Up)</div>
                   <div className="project-description">
-                    Using React Native, Firebase, Google Maps API, and Geocoding
-                    API, I am building an app that helps Angelenos locate bars
-                    with drink specials and a dance floor, a deadly combo, on
-                    worknights. Users are also able to submit a location to the
-                    database that they belive is worthy of being on the map,
-                    after my friends confirm the bar is good enough to add, then
-                    I will add location to map.
+                    Using React Native, Firebase, Google Maps, Google Places
+                    AutoComplete and Geocoding API, I am building an app that
+                    helps Angelenos locate bars with drink specials and a dance
+                    floor, a deadly combo, on worknights. Users are also able to
+                    submit a location to the database that they belive is worthy
+                    of being on the map, after my friends confirm the bar is
+                    good enough to add, then I will add location to map.
                   </div>
                 </div>
                 <div>
@@ -195,6 +196,28 @@ export default class Main extends Component {
                     <img
                       className="slide-pics"
                       src={tacomapsSubscribe}
+                      alt="rafael-monroy"
+                    />
+                  </a>
+                </div>
+                <div>
+                  <div className="project-name">TacoMaps Website</div>
+                  <div className="project-description">
+                    Using a Dreamweaver template, me and a partner create a
+                    beautiful website that lets users know more about the
+                    mission of our app TacoMaps, with a WooCommerce store and
+                    Wordpress blog.
+                  </div>
+                </div>
+                <div>
+                  <a
+                    href="https://www.tacomaps.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      className="slide-pics"
+                      src={tacomaps}
                       alt="rafael-monroy"
                     />
                   </a>
@@ -439,6 +462,16 @@ export default class Main extends Component {
                 <FontAwesomeIcon icon={['fab', 'codepen']} />
                 Codepen
               </a>
+            </div>
+          </div>
+        </ScrollableAnchor>
+        <ScrollableAnchor id={'contact'}>
+          <div id="contact" className="sections">
+            <h2>CONTACT</h2>
+            <div className="contact">
+              <p>rafaelmonroy1990@gmail.com</p>
+              <p>323-536-7868</p>
+              <p>Instagram @tak3risks</p>
             </div>
           </div>
         </ScrollableAnchor>
