@@ -114,9 +114,9 @@ export default class Main extends Component {
             <br />
             <p>
               MongoDB - ExpressJS - ReactJS - NodeJS - React Native - Firebase -
-              JavaScript ES6 - HTML 5 - CSS 3 - Bootstrap - jQuery - CLI - Git -
-              NPM - Wordpress - WooCommerce - Dreamweaver - Illustrator -
-              Photoshop
+              XCode - JavaScript ES6 - HTML 5 - CSS 3 - Bootstrap - jQuery - CLI
+              - Git - NPM - Wordpress - WooCommerce - Dreamweaver - Illustrator
+              - Photoshop
             </p>
           </div>
         </ScrollableAnchor>
