@@ -138,10 +138,11 @@ export default class Main extends Component {
                     Using React Native, Firebase, Google Maps, Google Places
                     AutoComplete and Geocoding API, I build an app that helps
                     Angelenos locate bars with drink specials and a dance floor,
-                    a deadly combo, on worknights. Users are also able to submit
-                    a location to the database that they belive is worthy of
-                    being on the map, after my friends confirm the bar is good
-                    enough to add, then I will add location to map.
+                    a deadly combo, on work-nights. Users are also able to
+                    submit a location to the database that they believe is
+                    worthy of being on the map, after my friends confirm the bar
+                    is good enough to add, then I will add the location to the
+                    map.
                   </div>
                 </div>
                 <div>
