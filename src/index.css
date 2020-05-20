@@ -12,7 +12,7 @@ body {
 }
 
 .App {
-  font-family: "main", Fallback, sans-serif;
+  font-family: 'main', Fallback, sans-serif;
 }
 
 /**********/
@@ -106,7 +106,7 @@ h1 {
 
 #name,
 #menu-name {
-  font-family: "Rubik Mono One", sans-serif;
+  font-family: 'Rubik Mono One', sans-serif;
   font-size: 80px;
   margin-bottom: 0px;
 }
@@ -362,7 +362,8 @@ h2 {
   }
 
   #click-image,
-  #scroll-left {
+  #scroll-left,
+  #contact {
     padding-left: 20px;
   }
 

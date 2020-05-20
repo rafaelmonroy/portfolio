@@ -127,8 +127,7 @@ export default class Main extends Component {
             </h2>
 
             <p style={{ color: 'red' }} id="click-image">
-              Click image to see project in production!{' '}
-              <i>Except for WTU (in App Store Review Process)</i>
+              Click image to see project in production!
             </p>
 
             <div className="slider">
@@ -137,17 +136,17 @@ export default class Main extends Component {
                   <div className="project-name">WTU (Worknight Turn Up)</div>
                   <div className="project-description">
                     Using React Native, Firebase, Google Maps, Google Places
-                    AutoComplete and Geocoding API, I am building an app that
-                    helps Angelenos locate bars with drink specials and a dance
-                    floor, a deadly combo, on worknights. Users are also able to
-                    submit a location to the database that they belive is worthy
-                    of being on the map, after my friends confirm the bar is
-                    good enough to add, then I will add location to map.
+                    AutoComplete and Geocoding API, I build an app that helps
+                    Angelenos locate bars with drink specials and a dance floor,
+                    a deadly combo, on worknights. Users are also able to submit
+                    a location to the database that they belive is worthy of
+                    being on the map, after my friends confirm the bar is good
+                    enough to add, then I will add location to map.
                   </div>
                 </div>
                 <div>
                   <a
-                    href="https://github.com/rafaelmonroy/WTU"
+                    href="https://apps.apple.com/us/app/wtu/id1513246177"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
