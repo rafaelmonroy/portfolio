@@ -80,8 +80,8 @@ export default class Main extends Component {
               RAFAEL<span id="monroy">MONROY</span>
             </h1>
             <p id="sub-heading">
-              <span id="front-end">Junior Full-Stack Developer</span> from Los
-              Angeles, CA
+              <span id="front-end">Full-Stack Developer</span> from Los Angeles,
+              CA
             </p>
             <p id="about-me">
               After 4 years of customizing Wordpress sites with{' '}
