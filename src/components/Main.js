@@ -18,6 +18,7 @@ import memeGenerator from './images/car-audio-meme-generator.png';
 import tacoPlaces from './images/tacoplaces.png';
 import tacomapsSubscribe from './images/tacomaps-subscribe.png';
 import wtu from './images/wtu.png';
+import lit from './images/lit.png';
 import tacomaps from './images/tacomaps.png';
 
 //icons
@@ -89,10 +90,11 @@ export default class Main extends Component {
               learn a programming language that would allow me to break from the
               limitations of Wordpress and design web &amp; phone apps only
               limited by my imagination. After learning{' '}
-              <span className="highlights">Vanilla Javascript</span>, building
-              the projects displayed on this site and falling in love with
-              programming, I have decided to pursue a career as a{' '}
-              <span className="highlights">Full-Stack Developer</span>.
+              <span className="highlights">Vanilla Javascript</span>, and
+              falling in love with programming, I have decided to pursue a
+              career as a{' '}
+              <span className="highlights">Full-Stack Developer</span>. Check
+              the projects I have work on below!
             </p>
           </div>
         </ScrollableAnchor>
@@ -114,9 +116,9 @@ export default class Main extends Component {
             <br />
             <p>
               MongoDB - ExpressJS - ReactJS - NodeJS - React Native - Firebase -
-              XCode - JavaScript ES6 - HTML 5 - CSS 3 - Bootstrap - jQuery - CLI
-              - Git - NPM - Wordpress - WooCommerce - Dreamweaver - Illustrator
-              - Photoshop
+              XCode - JavaScript ES6 - Redux - HTML 5 - CSS 3 - Bootstrap -
+              jQuery - CLI - Git - NPM - Wordpress - WooCommerce - Dreamweaver -
+              Illustrator - Photoshop
             </p>
           </div>
         </ScrollableAnchor>
@@ -132,6 +134,28 @@ export default class Main extends Component {
 
             <div className="slider">
               <div className="slides">
+                <div>
+                  <div className="project-name">Lit IO</div>
+                  <div className="project-description">
+                    My responsibility at Lit IO as a Backend Developer was to
+                    use React Native, Redux and Firebase: to conceptualize and
+                    implement solutions for connecting pre-designed screens to
+                    our backend databases. Collaborate with frontend developers
+                    and the design team to implement the application
+                    functionality. Configure the useability of all front side
+                    applications. Identify areas of improvement, and
+                    troubleshoot problems.
+                  </div>
+                </div>
+                <div>
+                  <a
+                    href="https://www.lit-app.io/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img className="slide-pics" src={lit} alt="rafael-monroy" />
+                  </a>
+                </div>
                 <div>
                   <div className="project-name">WTU (Worknight Turn Up)</div>
                   <div className="project-description">
