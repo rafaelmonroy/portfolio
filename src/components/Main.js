@@ -137,8 +137,8 @@ export default class Main extends Component {
                 <div>
                   <div className="project-name">Lit IO</div>
                   <div className="project-description">
-                    My responsibility at Lit IO as a Backend Developer was to
-                    use React Native, Redux and Firebase: to conceptualize and
+                    My responsibility at Lit IO as a Backend Developer is to use
+                    React Native, Redux and Firebase: to conceptualize and
                     implement solutions for connecting pre-designed screens to
                     our backend databases. Collaborate with frontend developers
                     and the design team to implement the application
