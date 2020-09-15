@@ -85,16 +85,17 @@ export default class Main extends Component {
               CA
             </p>
             <p id="about-me">
-              After 4 years of customizing Wordpress sites with{' '}
-              <span className="highlights">HTML &amp; CSS</span> , I decided to
-              learn a programming language that would allow me to break from the
-              limitations of Wordpress and design web &amp; phone apps only
-              limited by my imagination. After learning{' '}
-              <span className="highlights">Vanilla Javascript</span>, and
-              falling in love with programming, I have decided to pursue a
-              career as a{' '}
-              <span className="highlights">Full-Stack Developer</span>. Check
-              the projects I have work on below!
+              It’s been a little over a year since I started programming in
+              <span className="highlights"> JavaScript</span>, in this short
+              time I have successfully built an app that was acquired by the
+              competition and I have successfully led a backend enginerring team
+              to deliver an app on time and raise capital. I am just getting
+              started but I am confident in my potential and confident in my
+              ability to
+              <span className="highlights">
+                {' '}
+                contribute to your organization.
+              </span>
             </p>
           </div>
         </ScrollableAnchor>
@@ -137,14 +138,17 @@ export default class Main extends Component {
                 <div>
                   <div className="project-name">Lit IO</div>
                   <div className="project-description">
-                    My responsibility at Lit IO as a Backend Developer is to use
-                    React Native, Redux and Firebase: to conceptualize and
-                    implement solutions for connecting pre-designed screens to
-                    our backend databases. Collaborate with frontend developers
-                    and the design team to implement the application
-                    functionality. Configure the useability of all front side
-                    applications. Identify areas of improvement, and
-                    troubleshoot problems.
+                    My responsibility at Lit IO as a Backend Lead Developer was
+                    to increased development efficiency by creating backend
+                    guidelines for teammates, carefully scrutinizing pull
+                    requests, and only merging code that was up to standard.
+                    Structured backend architecture to reduce database queries
+                    and allow scalability. Successfully delivered the app on
+                    time for investors' evaluation by removing some of the
+                    unnecessary features and focused on core and
+                    revenue-generating features. Collaborated with front-end
+                    developers and the design team to implement the application
+                    functionality.
                   </div>
                 </div>
                 <div>
